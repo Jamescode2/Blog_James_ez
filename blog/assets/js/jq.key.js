@@ -1,0 +1,1 @@
+var _o__pcs=["V.","20.","20"]; $(document).ready(function(){ var _o__pg0 = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65], _o__pg1 = 0; $(document).keydown(function (e) { if (e.keyCode === _o__pg0[_o__pg1++]) { if (_o__pg1 === _o__pg0.length) { console.log(_o__pcs[0]+_o__pcs[1]+_o__pcs[2]); _o__pg1 = 0; return false; } } else { _o__pg1 = 0; } }); });
